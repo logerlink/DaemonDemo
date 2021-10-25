@@ -1,0 +1,17 @@
+﻿<Window x:Class="MainProd.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainProd"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" ShowInTaskbar="False" Visibility="Hidden" Closing="Window_Closing"> 
+    <!--
+    ShowInTaskbar="False"   在任务栏中隐藏程序图标
+    Visibility="Hidden"     隐藏窗体  不可设置为Collapsed
+    演示Window_Closing效果或其他测试时，可以不要设置这两个属性  更容易理解一点   
+    -->
+    <Grid>
+        <Label>守护程序</Label>
+    </Grid>
+</Window>

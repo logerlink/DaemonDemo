@@ -1,0 +1,13 @@
+﻿<Window x:Class="MainPro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainPro"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Closing="Window_Closing">
+    <Grid>
+        <Label Content="主程序"></Label>
+        <Button Width="150" Height="50" Content="点击触发异常" Click="Button_Click"></Button>
+    </Grid>
+</Window>
